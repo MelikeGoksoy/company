@@ -1,10 +1,10 @@
 {
-  "name": "@MelikeGoksoy/ng-lib-test",
-  "version": "0.0.2",
+  "name": "@MelikeGoksoy/company",
+  "version": "0.0.4",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MelikeGoksoy/ng-lib-test.git"
+    "url": "git+https://github.com/MelikeGoksoy/company.git"
   },
   "dependencies": {
     "@angular/animations": "7.2.7",
@@ -32,8 +32,10 @@
     "build": "ng build",
     "build:lib": "node_modules/.bin/ng-packagr -p projects/company/package.json",
     "cd":"cd projects/company/dist",
-    "gitpush": "git init && git remote add origin https://github.com/MelikeGoksoy/company.git && git add . && git commit -m \"sabit mesaj\" && git push -f origin",
-    "npm_publish": "npm run build:lib && npm run cd && npm run gitpush",
+    "gitpush": "git init && git remote remove origin && git remote add origin https://github.com/MelikeGoksoy/company.git && git add . && git commit -m hede && git push --force origin master",
+    "rmdist":"cd projects/company && rmdir /Q /S dist",
+    "publish":"npm publish --access public",
+    "npm_publish": "npm run rmdist && npm run build:lib && npm run cd && npm run gitpush && npm run publish",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -61,9 +63,9 @@
   },
   "description": "angular ile library oluşturma",
   "bugs": {
-    "url": "https://github.com/MelikeGoksoy/ng-lib-test.git/issues"
+    "url": "https://github.com/MelikeGoksoy/company/issues"
   },
-  "homepage": "https://github.com/MelikeGoksoy/ng-lib-test.git#readme",
+  "homepage": "https://github.com/MelikeGoksoy/company#readme",
   "main": "index.js",
   "keywords": [
     "angular",
