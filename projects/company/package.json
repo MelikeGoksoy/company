@@ -1,0 +1,35 @@
+{
+  "name": "@melikeg/company",
+  "version": "0.0.3",
+  "peerDependencies": {
+    "@angular/common": "7.2.7",
+    "@angular/core": "7.2.7",
+    "@angular/material": "7.3.3",
+    "@angular/cdk": "7.3.3",
+    "@angular/animations": "7.2.7",
+    "@angular/forms": "7.2.7",
+    "@angular/router": "7.2.7"
+  },
+  "ngPackage": {
+    "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+    "dest": "./dist",
+    "lib": {
+      "entryFile": "./src/public_api.ts"
+    }
+  },
+  "main": "index.js",
+  "scripts": {
+    "testim": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MelikeGoksoy/company.git"
+  },
+  "author": "melikegoksoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MelikeGoksoy/company/issues"
+  },
+  "homepage": "https://github.com/MelikeGoksoy/company#readme",
+  "description": ""
+}

@@ -1,0 +1,37 @@
+{
+  "name": "@melikeg/company",
+  "version": "0.0.3",
+  "peerDependencies": {
+    "@angular/common": "7.2.7",
+    "@angular/core": "7.2.7",
+    "@angular/material": "7.3.3",
+    "@angular/cdk": "7.3.3",
+    "@angular/animations": "7.2.7",
+    "@angular/forms": "7.2.7",
+    "@angular/router": "7.2.7"
+  },
+  "main": "bundles/melikeg-company.umd.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MelikeGoksoy/company.git"
+  },
+  "author": "melikegoksoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MelikeGoksoy/company/issues"
+  },
+  "homepage": "https://github.com/MelikeGoksoy/company#readme",
+  "description": "",
+  "module": "fesm5/melikeg-company.js",
+  "es2015": "fesm2015/melikeg-company.js",
+  "esm5": "esm5/melikeg-company.js",
+  "esm2015": "esm2015/melikeg-company.js",
+  "fesm5": "fesm5/melikeg-company.js",
+  "fesm2015": "fesm2015/melikeg-company.js",
+  "typings": "melikeg-company.d.ts",
+  "metadata": "melikeg-company.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
